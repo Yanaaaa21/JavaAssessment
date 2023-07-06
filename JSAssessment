@@ -18,7 +18,7 @@ function mintNFT(_name, _skinColor, _shortColor,_shirttype) {
     const NFT = {
         "name": _name,
         "skin": _skinColor,
-        "": _shortColor,
+        "short": _shortColor,
         "shirt":_shirttype
      }
      NFTs.push(NFT);
